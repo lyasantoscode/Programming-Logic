@@ -1,318 +1,490 @@
-# Programming-Logic
-Lógica de Programação
+# Programming Logic
+## Fonte:Livro: INTRODUÇÃO A PROGRAMAÇÃO: 500 Algoritmos resolvidos. Anita Lopes & Guto Garcia. 
 
 
-Algoritmo para trocar lâmpadas
-1- se (lâmpada estiver fora de alcanc e)
-pegar a escada;
-2 - pegar a lâmpada;
-3- se (lâmpada estiver quente)
-pegar pano;
-4 - Tirar lâmpada queimada;
-5- Colocar lâmpada boa
-=====================================
-Algoritmo para o fim de semana
-1 - vejo a previsão do tempo;
-2 - se (fizer sol)
-vou à praia;
-senão
-vou estudar;
-3 - almoçar
-4- ver televisão
-5 - dormir
-==================================
+### Lógica de Programação
 
-Algoritmo para fazer um bolo simples
-1 -pegar os ingredientes;
-2 - se (roupa branca)
-colocar avental;
-3 - se (tiver batedeira)
-bater os ingredientes na batedeira;
-senão
-bater os ingredientes à mão;
-4 - colocar a massa na forma;
-5 - colocar a forma no forno;
-6 - aguardar o tempo necessário;
-7 - retirar o bolo;
+💡 Algoritmo para Trocar Lâmpadas
 
-==================================
-Algoritmo para descascar batatas
-1 - pegar faca, bacia e batatas;
-2 - colocar água na bacia;
-3 - enquanto (houver batatas)
-descascar batatas;
+1️⃣ Se (lâmpada estiver fora de alcance), pegue a escada 🪜
+2️⃣ Pegue a lâmpada 💡
+3️⃣ Se (lâmpada estiver quente), pegue um pano 🔥
+4️⃣ Retire a lâmpada queimada 🗑️
+5️⃣ Coloque uma lâmpada nova 🌟
+🌞 Algoritmo para o Fim de Semana
 
-=================================
+1️⃣ Veja a previsão do tempo 🌦️
+2️⃣ Se (fizer sol), vá à praia 🏖️; senão, vá estudar 📚
+3️⃣ Almoce 🍲
+4️⃣ Assista televisão 📺
+5️⃣ Durma 🛌
+🍰 Algoritmo para Fazer um Bolo Simples
 
-Algoritmo para fazer uma prova
-1 - ler a prova;
-2 - pegar a caneta;
-3- enquanto ((houver questão em branco) e (tempo não terminou))faça
-se (souber a questão)
-resolvê-la;
-senão
-pular para outra;
-4 - entregar a prova
-==================================
-Algoritmo para jogar o jogo da velha:
-enquanto ((ex i stir um quadrado livre ) e (ninguém perdeu(ganhou) o jogo))
-espere a jogada do adversário, continue depo is
-se (existir um quadrado livre)
-se (centro livre)
-jogue no centro
-senão
-se (adversário tem 2 quadrados em linha com o terc~iro
-desocupado)
-jogue neste quadrado desocupado
-senão
-se (há algum canto livre)
-jogue neste canto
-=======================================
-Algoritmo para levar um leão, uma cabra e um pedaço de grama de um lado para
-outro de um rio, atravessando com um bote. Sabe-se que nunca o leão pode ficar
-sozinho com a cabra e nem a cabra sozinha com a grama.
-1 - Levar a grama e o leão
- 2- Voltar com o leão
- 3 - Deixar o leão
-4 - Levar a cabra
-5 - Deixar a cabra
-6- Voltar com a grama
-7 - Levar o leão e a grama
-======================================
-1) Fazer um algoritmo para levar 3 missionários e 3 canibais de um
-lado para outro de um rio, atravessando com um bote. Sabe-se que
-nunca pode ter mais missionários do que canibais porque senão os
-missionários catequizam os canibais. O que fazer para levar os 6 de
-uma margem para outra?
-Passos do Algoritmo
+1️⃣ Pegue os ingredientes 🥛🥚🍫
+2️⃣ Se (roupa branca), coloque um avental 🧑‍🍳
+3️⃣ Se (tiver batedeira), bata os ingredientes na batedeira; senão, bata à mão 🥄
+4️⃣ Coloque a massa na forma 🧁
+5️⃣ Coloque a forma no forno 🔥
+6️⃣ Aguarde o tempo necessário ⏳
+7️⃣ Retire o bolo 🍰
+🥔 Algoritmo para Descascar Batatas
 
-    Enviar 2 canibais para o outro lado
-        Lado A: 3 missionários, 1 canibal
-        Lado B: 0 missionários, 2 canibais
+1️⃣ Pegue faca, bacia e batatas 🥔
+2️⃣ Coloque água na bacia 🚰
+3️⃣ Enquanto (houver batatas), descasque as batatas 🔪
+📝 Algoritmo para Fazer uma Prova
 
-    Retornar 1 canibal para o lado inicial
-        Lado A: 3 missionários, 2 canibais
-        Lado B: 0 missionários, 1 canibal
+1️⃣ Leia a prova 📜
+2️⃣ Pegue a caneta ✒️
+3️⃣ Enquanto ((houver questão em branco) e (tempo não terminou)), faça:
 
-    Enviar 2 canibais para o outro lado novamente
-        Lado A: 3 missionários, 0 canibais
-        Lado B: 0 missionários, 3 canibais
+    Se (souber a questão), resolva-a ✅; senão, pule para outra ➡️
+    4️⃣ Entregue a prova 📨
 
-    Retornar 1 canibal para o lado inicial
-        Lado A: 3 missionários, 1 canibal
-        Lado B: 0 missionários, 2 canibais
+❌ Algoritmo para Jogar o Jogo da Velha
 
-    Enviar 2 missionários para o outro lado
-        Lado A: 1 missionário, 1 canibal
-        Lado B: 2 missionários, 2 canibais
+Enquanto ((existir um quadrado livre) e (ninguém ganhou o jogo)), faça:
 
-    Retornar 1 missionário e 1 canibal para o lado inicial
-        Lado A: 2 missionários, 2 canibais
-        Lado B: 1 missionário, 1 canibal
+    Espere a jogada do adversário e, em seguida:
+        Se (existir um quadrado livre), jogue no centro ➕, ou:
+            Se (adversário tem 2 quadrados em linha com o terceiro desocupado), jogue nesse quadrado.
+            Se (há algum canto livre), jogue no canto 🔲
 
-    Enviar 2 missionários para o outro lado
-        Lado A: 0 missionários, 2 canibais
-        Lado B: 3 missionários, 1 canibal
+🦁🐐🌱 Algoritmo para Transportar Leão, Cabra e Grama
 
-    Retornar 1 canibal para o lado inicial
-        Lado A: 0 missionários, 3 canibais
-        Lado B: 3 missionários, 0 canibais
+1️⃣ Leve a grama e o leão 🌱🦁
+2️⃣ Volte com o leão 🦁
+3️⃣ Deixe o leão 🦁
+4️⃣ Leve a cabra 🐐
+5️⃣ Deixe a cabra 🐐
+6️⃣ Volte com a grama 🌱
+7️⃣ Leve o leão e a grama 🌱🦁
+⛵ Algoritmo para Levar Missionários e Canibais
 
-    Enviar os 2 canibais finais para o outro lado
-        Lado A: 0 missionários, 1 canibal
-        Lado B: 3 missionários, 3 canibais
-   ========================================================
+Para atravessar três missionários e três canibais sem que os missionários fiquem em menor número:
 
-   Capítulo 2
-Variável, expressões,
-funções, atribuição,
-entrada e saída
-VARIÁVEL
-Conceitos iniciais
-Uma variável é um local na memória principal, isto é, um endereço que ar -
-mazena um conteúdo. Em linguagens de alto nível, nos é permitido dar
-nome a esse endereço para facilitar a programação,
-O conteúdo de uma variável pode ser de vários tipos: inteiro, real, ca-
-ractere, lógico, entre outros. Normalmente, quando se ensina algoritmo,
-trabalha-se com os quatro tipos citados
+1️⃣ Envie 2 canibais para o outro lado
 
-OBSERVAÇÃO
-int a;
-real b;
-string nome;
-logico r;
+    Lado A: 3 missionários, 1 canibal
+    Lado B: 0 missionários, 2 canibais
 
-Um dos objetivos de se declarar uma variável no início do algoritmo é para
-que seja alocada (reservada) uma área na memória (endereço de memória)
-para a variável. Outro objetivo da declaração de variáveis é que, após a
-declaração, o algoritmo sabe os tipos de operações que cada variável pode
-realizar; explicando: algumas operações só podem ser realizadas com
-variáveis do tipo inteiro, outras só podem ser realizadas com variáveis dos
-tipos inteiro ou real, outras só com variáveis de caractere etc
-========================================================================
-Tipos de variáveis
-Numérica
-Variáveis numéricas são aquelas que armazenam dados numéricos, po -
-dendo ser divididas em duas classes:
-int
-Os números inteiros são aqueles que não possuem componentes decimais
-ou fracionários, podendo ser positivos ou negativo
+2️⃣ Retorne 1 canibal para o lado inicial
 
-Como exemplo de números inteiros temos:
-12 número inteiro positivo
--12 número inteiro negativo
+    Lado A: 3 missionários, 2 canibais
+    Lado B: 0 missionários, 1 canibal
 
-=============================================
-real
-Os números reais são aqueles que podem possuir componentes decimais
-ou fracionários, podendo também ser positivos ou negativos.
-As variáveis compostas com estes números pertencentes aos conjuntos
-dos números reais são chamadas de VARIÁVEIS REAIS.
-Como exemplos de números reais temos:
-24.01
-144.
--13.3
-0.0
-número real positivo com duas casas decimais
-número real positivo com zero casa decimal
-número real negativo com uma casa decimal
-número real com uma casa decimal
+3️⃣ Envie 2 canibais para o outro lado novamente
 
-========================================
-string
-Também conhecida como caractere, alfanumérica ou literal. Esse tipo de
-variável armazena dados que contêm letras, dígitos e/ou símbolos especiais.
-Como exemplos de constantes string temos:
-"Maria"
-"123"
-"O"
-"A"
-string de comprimento 5
-string de comprimento 3
-string de comprimento 1
-string de comprimento 
-===============================================
-logico
-Também conhecido como booleano. É representado no algoritmo pelo
-dois únicos valores lógicos po ssíveis: verdadeiro ou falso. Porém, é co-
-mum encontrar em outras referências outros tipos de pares de valores ló-
-gicos como : sim/nao, 1/0, true/false, verdadeiro/falso.
-Como exemplos de constantes lógicas temos:
-verdadeiro
-falso
-Valor lógico verdadeiro
-Valor lógico falso
+    Lado A: 3 missionários, 0 canibais
+    Lado B: 0 missionários, 3 canibais
 
-========================================================
-Aritméticas
-Expressões aritméticas são aquelas cujo resultado da avaliação é do tipo
-numérico, seja ele inteiro ou real. Somente o uso de operadores aritméti-
-cos e variáveis numéricas é permitido em expressões deste tipo.
-Como exemplo de operadores e expressões aritméticas temos:
-Soma Na matemática, representada pelo sinal + e, em expressões em
-termos computacionais, pelo mesmo sinal.
-A + B Expressão que simboliza a soma do valor de duas variáveis.
-2 + 3 Nessa expressão, o valor retornado é a soma dos valores
-dados, isto é, 5.
-Subtração Na matemática, representada pelo sinal- e, em expressões
-em termos computacionais, pelo mesmo sinal.
-A - B Expressão que simboliza a subtração do valor de duas variáveis.
-3 - 2 Nessa expressão, o valor retornado é o resto, isto é, 1.
-Multiplicação Na matemática, representada pelos sinais x ou. e, em
-expressões em termos computacionais, pelo sinal *.
-B ::- D Expressão que simboliza a multiplicação do valor de duas
-variáveis.
-3*2 Nessa expressão, o valor retornado é o produto dos valores
-dados, isto é, 6.
-Divisão Na matemática, representada pelo sinal -;- e, em expressões
-computacionais, pelo sinal/.
-A / B
-6 I 2
-5 / 2
-Expressão que simboliza a divisão do valor de duas variáveis.
-Nessa expressão, o valor retornado é a divisão dos valores
-dados, que, no caso, será equivalente a 3.
-Nessa expressão, o valor retornado é a divisão dos valores
-dados, que, no caso, será equivalente a 2.5
+4️⃣ Retorne 1 canibal para o lado inicial
 
-=======================================================
-7 Ofo 4 Nessa expressão, o valor retornado é o resto da divisão do
-primeiro pelo segundo número, que, no caso, será
-equivalente a 3.
-div- divisão inteira É usada em expressões em termos computacionais
-quando se deseja encont rar o quociente da divisão de dois números inteiros.
-A div B Expressão que simboliza a intenção de achar o valor do
-divisor na divisão do valor da variável A pelo valor da
-variável B.
-5 div 2 Nessa expressão, o valor retornado é o coeficiente da divisão
-do primeiro pelo segun do número, que, no caso, será
-equivalente a 2.
-C. Ooperador div necessita que, antes e depois dele, pressionemos a barra de espaço.
-Relaciona I
-Uma expressão relaciona!, ou simplesmente relação, é uma comparação rea-
-lizada entre dois valores de mesmo tipo básico. Estes valores são represen-
-tados na relação através de constantes, variáveis ou expressões aritméticas.
+    Lado A: 3 missionários, 1 canibal
+    Lado B: 0 missionários, 2 canibais
 
-Operador Matemática
-Igual =
-Diferente 7:-
-Maior >
-Menor que <
-=======================================================================
-Lógica ou booleana
-Denomina-se expressão lógica a expressão cujos operadores são lógicos e
-cujos operandos são relações, constantes e/ ou variáveis do tipo lógico
+5️⃣ Envie 2 missionários para o outro lado
 
-Operador Matemática Usaremos
-conjunção e &&
-disjunção ou ||
-negação !
+    Lado A: 1 missionário, 1 canibal
+    Lado B: 2 missionários, 2 canibais
 
-===================================================
-ATRIBUIÇÃO
-É a principal forma de se armazenar um dado em uma variável. Esse co-
-mando permite que você forneça um valor a uma variável, onde o tipo
-desse valor tem de ser compatível com a variável.
-===================================================
+6️⃣ Retorne 1 missionário e 1 canibal para o lado inicial
 
-A "Memória Principal" (MP) representa o espaço de armazenamento onde as variáveis de um programa são guardadas temporariamente enquanto o programa está em execução. Ela é chamada assim porque é a área principal de armazenamento acessível diretamente pela unidade de processamento do computador (CPU).
+    Lado A: 2 missionários, 2 canibais
+    Lado B: 1 missionário, 1 canibal
 
-Aqui estão alguns pontos principais sobre a Memória Principal (MP):
+7️⃣ Envie 2 missionários para o outro lado
 
-    Armazenamento Temporário: A memória principal armazena valores temporários, como variáveis, durante a execução de um programa. Quando o programa é encerrado, esses valores são perdidos, pois a MP é uma memória volátil.
+    Lado A: 0 missionários, 2 canibais
+    Lado B: 3 missionários, 1 canibal
 
-    Organização em Endereços: A memória principal é dividida em células ou endereços, e cada variável ocupada uma dessas células. No exemplo, temos variáveis como A, B e AUX, cada uma ocupando uma posição específica.
+8️⃣ Retorne 1 canibal para o lado inicial
 
-    Execução de Instruções: À medida que o programa é executado, os valores das variáveis podem ser alterados diretamente na memória principal. Isso permite ao processador ler e modificar dados rapidamente.
+    Lado A: 0 missionários, 3 canibais
+    Lado B: 3 missionários, 0 canibais
 
-    Função de AUX: Na imagem, AUX é uma variável auxiliar utilizada para armazenar temporariamente o valor de outra variável. Ela ajuda a evitar a perda de dados durante a troca de valores entre A e B. Sem AUX, o valor original seria sobrescrito.
+9️⃣ Envie os 2 canibais finais para o outro lado
 
-    Papel na Computação: A MP permite que o computador realize operações em dados sem depender de armazenamento externo (como o disco rígido), tornando o processamento muito mais rápido.
+    Lado A: 0 missionários, 1 canibal
+    Lado B: 3 missionários, 3 canibais
 
-Em resumo, a Memória Principal serve como a área onde o computador armazena e manipula variáveis e dados durante a execução de um programa, sendo essencial para o funcionamento dinâmico dos algoritmos.
+Conceitos Fundamentais de Programação
+Variáveis
 
-====================================================
-COMANDO DE SAÍDA
-É o comando responsável por enviar um resultado, uma informação ao
-usuário. O valor de cada variável é buscado na memória e inserido em um
-dispositivo de saída. Através desse comando o computador pode emitir os
-resultados e outras mensagens para o usuário através da tela do computa-
-dor ou uma impressora
-==========================================
-Entrar com uma data no formato ddmmaa e imprimir no formato mmddaa.
-prog teste
-int data,dia,mes,ano,ndata;
-imprima "\nDigite data no formato DDMMAA: ";
-leia data;
-dia<-data div 10000;
-mes<-data % 10000 div 100;
-ano<-data %100;
-ndata<- mes *10000 +dia*100+ano;
-imprima "\nDIA: ",dia;
-imprima "\nMES: ",mes;
-imprima "\nANO: ",ano;
-imprima "\n\nDATA NO FORMATO MMDDAA: ",ndata;
+    Variável é um local na memória onde armazenamos dados temporários para o programa. Cada variável possui um tipo como int, real, string, ou boolean.
+
+Tipos de Variáveis
+
+    Numérica: Inteira (int) ou Real (float).
+    String: Sequência de caracteres, como "Maria".
+    Boolean: Valores lógicos, verdadeiro ou falso.
+
+Operadores Aritméticos
+
+    Soma: +
+    Subtração: -
+    Multiplicação: *
+    Divisão: /
+    Módulo (resto da divisão): %
+
+Operadores Relacionais
+
+    Igual: ==
+    Diferente: !=
+    Maior que: >
+    Menor que: <
+
+Operadores Lógicos
+
+    E: &&
+    OU: ||
+    NÃO: !
+
+Atribuição
+
+    O comando de atribuição (=) permite armazenar valores em variáveis.
+
+Comando de Saída
+
+    Saída: Exibe informações para o usuário, como print para mostrar mensagens na tela.
+
+
+
+    🧠 Memória Principal (MP)
+
+A Memória Principal (MP) é o espaço de armazenamento onde os dados e variáveis de um programa são guardados temporariamente enquanto o programa está sendo executado. Ela é essencial para o funcionamento do computador, pois permite que ele acesse e manipule dados rapidamente.
+📋 Características da Memória Principal
+
+    Armazenamento Temporário 🕒
+        A MP armazena dados temporariamente, como variáveis e resultados de cálculos. Esses dados ficam disponíveis apenas enquanto o programa está em execução. Quando o programa termina, esses valores são apagados, pois a memória principal é volátil.
+
+    Organização em Endereços 📍
+        A MP é dividida em pequenos blocos ou "endereços", e cada variável ou dado ocupa um desses espaços. Isso permite que o computador saiba exatamente onde encontrar cada informação.
+
+    Execução de Instruções ⚙️
+        Durante a execução do programa, o processador acessa a MP para ler e modificar os dados. Isso permite que operações e cálculos sejam feitos de forma muito rápida, pois a MP é muito mais acessível para o processador do que o armazenamento permanente (como o disco rígido).
+
+    Função de Variável Auxiliar (AUX) 🔄
+        Em alguns algoritmos, como o exemplo da troca de valores entre variáveis, uma variável auxiliar (AUX) é usada para armazenar temporariamente o valor de uma variável enquanto outro valor é atribuído. Isso impede a perda de dados importantes durante o processo.
+
+    Importância na Computação 💻
+        A MP permite que o computador realize operações diretamente em dados sem depender do armazenamento externo. Isso é fundamental para a eficiência e velocidade do processamento.
+
+        Em resumo, a Memória Principal é onde o computador guarda e manipula os dados que estão sendo usados em tempo real. Ela é essencial para que o computador possa realizar operações com agilidade durante a execução de um programa.
+
+   EXERCÍCIOS - LISTA 1
+
+LEIA, IMPRIMA, ATRIBUIÇÃO E FUNÇÕES
+
+Algoritmo 28
+
+Objetivo: Imprimir a mensagem "É PRECISO FAZER TODOS OS ALGORITMOS PARA APRENDER".
+prog leal
+imprima "\nÉ PRECISO FAZER TODOS OS ALGORITMOS PARA APRENDER";
+imprima "\n";
+fimprog
+
+Algoritmo 29
+
+Objetivo: Imprimir seu nome.
+prog lea2
+imprima "\n<seu nome>";
+imprima "\n";
+fimprog
+
+Algoritmo 30
+
+Objetivo: Criar um algoritmo que imprima o produto entre 28 e 43.
+prog lea3
+int produto;
+produto <- 28 * 43;
+imprima "\nO produto entre os dois é: ", produto;
+imprima "\n";
+fimprog
+
+Algoritmo 31
+
+Objetivo: Criar um algoritmo que imprima a média aritmética entre os números 8, 9 e 7
+prog lea4
+real ma;
+ma <- (8 + 9 + 7) / 3;
+imprima "\nA média aritmética é: ", ma;
+imprima "\n";
+fimprog
+
+Algoritmo 32
+
+Objetivo: Ler um número inteiro e imprimi-lo.
+prog lea5
+int num;
+imprima "\nEntre com um número: ";
+leia num;
+imprima "\nNúmero: ", num;
+imprima "\n";
+fimprog
+
+Algoritmo 33
+
+Objetivo: Ler dois números inteiros e imprimi-los.
+prog lea6
+int num1, num2;
+imprima "\nEntre com um número: ";
+leia num1;
+imprima "\nEntre com outro número: ";
+leia num2;
+imprima "\nNúmero 1: ", num1;
+imprima "\nNúmero 2: ", num2;
+imprima "\n";
+fimprog
+
+Algoritmo 34
+
+Objetivo: Ler um número inteiro e imprimir seu sucessor e antecessor.
+prog lea7
+int numero, suc, ant;
+imprima "\nEntre com um número: ";
+leia numero;
+ant <- numero - 1;
+suc <- numero + 1;
+imprima "\nO sucessor é: ", suc, " e o antecessor é: ", ant;
+imprima "\n";
+fimprog
+
+Algoritmo 35
+
+Objetivo: Ler nome, endereço e telefone e imprimi-los.
+prog lea8
+string nome, endereco, telefone;
+imprima "\nEntre com o nome: ";
+leia nome;
+imprima "\nEntre com o endereço: ";
+leia endereco;
+imprima "\nEntre com o telefone: ";
+leia telefone;
+imprima "\n\n";
+imprima "\nNome: ", nome;
+imprima "\nEndereço: ", endereco;
+imprima "\nTelefone: ", telefone;
+imprima "\n";
+fimprog
+
+Algoritmo 36
+
+Objetivo: Ler dois números inteiros e imprimir a soma. Antes do resultado, deverá aparecer a mensagem: "Soma".
+prog lea9
+int num1, num2, soma;
+imprima "\nEntre com um número: ";
+leia num1;
+imprima "\nEntre com outro número: ";
+leia num2;
+soma <- num1 + num2;
+imprima "\nSoma: ", soma;
+imprima "\n";
+fimprog
+
+Algoritmo 37
+
+Objetivo: Ler dois números inteiros e imprimir o produto.
+prog lea10
+int num1, num2, prod;
+imprima "\nEntre com um número: ";
+leia num1;
+imprima "\nEntre com outro número: ";
+leia num2;
+prod <- num1 * num2;
+imprima "\nProduto: ", prod;
 imprima "\n";
 fimprog
 
 
+Observações Importantes:
+
+    Todas as palavras reservadas devem ser escritas em letras minúsculas.
+    O operador de atribuição é <-.
+    Os identificadores (nomes de variáveis e do algoritmo) devem começar com uma letra.
+    Comandos como imprima, leia, atribuições e declarações de variáveis terminam com ;.
+    Os comandos prog e fimprog não têm ;.
+    Para evitar que o prompt fique na mesma linha da última impressão, utilize imprima "\n"; para inserir uma nova linha.
+
+    Algoritmo 38
+
+Objetivo: Ler um número real e imprimir a terça parte deste número.
+prog leal1
+real num;
+imprima "\nEntre com um número com ponto: ";
+leia num;
+imprima "\nA terça parte é: ", num / 3;
+imprima "\n";
+fimprog
+
+
+Algoritmo 39
+
+Objetivo: Entrar com dois números reais e imprimir a média aritmética com a mensagem "média" antes do resultado.
+prog leal2
+real nota1, nota2, media;
+imprima "\nDigite a 1ª nota: ";
+leia nota1;
+imprima "\nDigite a 2ª nota: ";
+leia nota2;
+media <- (nota1 + nota2) / 2;
+imprima "\nMédia: ", media;
+imprima "\n";
+fimprog
+
+Algoritmo 40
+
+Objetivo: Entrar com dois números inteiros e imprimir a seguinte saída:
+
+    dividendo
+    divisor
+    quociente
+    resto
+
+    prog leal3
+int quoc, rest, val1, val2;
+imprima "\nEntre com o dividendo: ";
+leia val1;
+imprima "\nEntre com o divisor: ";
+leia val2;
+quoc <- val1 div val2;
+rest <- val1 % val2;
+imprima "\n\n\n";
+imprima "\nDividendo: ", val1;
+imprima "\nDivisor: ", val2;
+imprima "\nQuociente: ", quoc;
+imprima "\nResto: ", rest;
+imprima "\n";
+fimprog
+
+Algoritmo 41
+
+Objetivo: Entrar com quatro números e imprimir a média ponderada, sabendo-se que os pesos são respectivamente: 1, 2, 3 e 4
+prog lea14
+real a, b, c, d, mp;
+imprima "\nEntre com o 1º número: ";
+leia a;
+imprima "\nEntre com o 2º número: ";
+leia b;
+imprima "\nEntre com o 3º número: ";
+leia c;
+imprima "\nEntre com o 4º número: ";
+leia d;
+mp <- (a*1 + b*2 + c*3 + d*4) / 10;
+imprima "\nMédia Ponderada: ", mp;
+imprima "\n";
+fimprog
+
+Algoritmo 42
+
+Objetivo: Entrar com um ângulo em graus e imprimir: seno, co-seno, tangente, secante, co-secante e co-tangente deste ângulo.
+prog lea15
+real angulo, rang;
+imprima "\nDigite um ângulo em graus: ";
+leia angulo;
+rang <- angulo * pi / 180;
+imprima "\nSeno: ", sen(rang);
+imprima "\nCo-seno: ", cos(rang);
+imprima "\nTangente: ", tan(rang);
+imprima "\nCo-secante: ", 1 / sen(rang);
+imprima "\nSecante: ", 1 / cos(rang);
+imprima "\nCo-tangente: ", 1 / tan(rang);
+imprima "\n";
+fimprog
+
+
+Observação: Em algumas situações, certos ângulos podem resultar em valores indefinidos para funções como secante, co-secante e co-tangente. Esse problema pode ser tratado utilizando estruturas de controle (como if) para verificar a validade dos valores antes de realizar os cálculos.
+==================================================================================
+Algoritmo: Cálculo de Custo de Energia
+
+Objetivo: Fazer um algoritmo que receba o valor do salário mínimo e a quantidade de quilowatts gasta por uma residência e calcule:
+
+    O valor em reais de cada quilowatt.
+    O valor em reais a ser pago.
+    O novo valor a ser pago com um desconto de 10%.
+
+    prog lea21
+real sm, qtdade, preco, vp, vd;
+imprima "\nEntre com o salário mínimo: ";
+leia sm;
+imprima "\nEntre com a quantidade em quilowatts: ";
+leia qtdade;
+
+# Calcula o preço de 1 quilowatt (100 quilowatts = 1/7 do salário mínimo)
+preco <- sm / 700;
+
+# Calcula o valor a ser pago sem desconto
+vp <- preco * qtdade;
+
+# Calcula o valor com 10% de desconto
+vd <- vp * 0.9;
+
+# Exibe os resultados
+imprima "\nPreço do quilowatt: ", preco;
+imprima "\nValor a ser pago: ", vp;
+imprima "\nValor com desconto: ", vd;
+imprima "\n";
+fimprog
+
+Esse algoritmo calcula o custo por quilowatt, o valor total de energia a ser pago e o valor com desconto de 10%, com uma formatação adequada para facilitar a compreensão.
+
+Algoritmo 49
+
+Objetivo: Entrar com um nome e imprimir várias informações específicas sobre ele.
+
+prog lea22
+string nome;
+int n;
+imprima "\nEntre com o nome: ";
+leia nome;
+
+imprima "\nTodo nome: ", nome;
+imprima "\nPrimeiro caractere: ", nome[0];
+imprima "\nÚltimo caractere: ", nome[strtam(nome) - 1];
+imprima "\nPrimeiro ao terceiro caractere: ", strsub(nome, 0, 3);
+imprima "\nQuarto caractere: ", nome[3];
+imprima "\nTodos menos o primeiro: ", strsub(nome, 1, strtam(nome));
+n <- strtam(nome) - 2;
+imprima "\nOs dois últimos: ", strsub(nome, n, strtam(nome));
+imprima "\n";
+fimprog
+
+
+Algoritmo 50
+
+Objetivo: Entrar com a base e a altura de um retângulo e imprimir o perímetro, área e diagonal.
+
+prog lea23
+real perimetro, area, diagonal, base, altura;
+imprima "\nDigite a base: ";
+leia base;
+imprima "\nDigite a altura: ";
+leia altura;
+
+perimetro <- 2 * (base + altura);
+area <- base * altura;
+diagonal <- raiz(base**2 + altura**2);
+
+imprima "\nPerímetro: ", perimetro;
+imprima "\nÁrea: ", area;
+imprima "\nDiagonal: ", diagonal;
+imprima "\n";
+fimprog
+
+Algoritmo 51
+
+Objetivo: Entrar com o raio de um círculo e imprimir o perímetro e a área.
+prog lea24
+real raio, perimetro, area;
+imprima "\nDigite o raio: ";
+leia raio;
+
+perimetro <- 2 * pi * raio;
+area <- pi * raio ** 2;
+
+imprima "\nPerímetro: ", perimetro;
+imprima "\nÁrea: ", area;
+imprima "\n";
+fimprog
+
+=============================================
